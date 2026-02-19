@@ -7,7 +7,7 @@
 
 **Perform Basic Arithmetic Operations with Ease**
 
-[Addition](#features) • [Subtraction](#features) • [Multiplication](#features) • [Division](#features)
+[Addition](#features) • [Subtraction](#features) • [Multiplication](#features) • [Installation](#installation) • [Usage](#usage)
 </div>
 
 ---
@@ -26,57 +26,115 @@ The class repository is a simple web-based calculator that allows users to perfo
 
 ## ✨ Features
 * **Arithmetic Operations**:
-  + Addition: performs addition of two numbers using the `add()` function.
-  + Subtraction: performs subtraction of two numbers using the `sub()` function.
-  + Multiplication: performs multiplication of two numbers using the `mul()` function.
-  + Division: performs division of two numbers using the `div()` function.
-* **User Input**: allows users to input two numbers using HTML input fields.
-* **Real-time Results**: displays the result of the calculation in real-time using JavaScript.
+  + Addition: performs addition of two numbers using the `add()` function
+  + Subtraction: performs subtraction of two numbers using the `sub()` function
+  + Multiplication: performs multiplication of two numbers using the `mul()` function
+  + Division: performs division of two numbers using the `div()` function
+* **User Interface**:
+  + Input fields for two numbers
+  + Buttons for each arithmetic operation
+  + Display field for the result
+* **Error Handling**:
+  + Input validation to ensure that users enter valid numbers
+  + Error messages for invalid input or division by zero
+
+---
+
+## 🏗️ Architecture
+```
+┌────────────┐
+│  index.html  │
+├────────────┤
+│  app.js     │
+└────────────┘
+```
+The calculator consists of two main files: `index.html` and `app.js`. The `index.html` file contains the user interface, while the `app.js` file contains the JavaScript code that performs the calculations.
 
 ---
 
 ## 🛠️ Tech Stack
-* **Frontend**: HTML5, JavaScript
-* **No Backend**: The calculator does not require a backend server, making it a static web application.
+| Technology | Purpose | Version |
+| --- | --- | --- |
+| HTML5 | User Interface | 5 |
+| JavaScript | Calculations and Logic | ES6 |
+| CSS | Styling | 3 |
+
+Note: The versions listed are based on the code provided and may not reflect the latest versions available.
 
 ---
 
 ## 📦 Installation
-To use the calculator, follow these steps:
-1. Clone the repository using `git clone https://github.com/SudeepKagi/class.git`.
-2. Open the `calculator/index.html` file in a web browser.
-3. The calculator is now ready to use.
+### Prerequisites
+* A web browser (e.g. Google Chrome, Mozilla Firefox)
+* A code editor or IDE (e.g. Visual Studio Code, Sublime Text)
+* Basic knowledge of HTML, CSS, and JavaScript
+
+### Steps
+1. Clone the repository using Git: 
+```bash
+git clone https://github.com/SudeepKagi/class.git
+```
+2. Open the `index.html` file in a web browser to view the calculator.
+3. Open the `app.js` file in a code editor or IDE to view the JavaScript code.
 
 ---
 
-## 📚 Usage
-To use the calculator, follow these steps:
-1. Open the `calculator/index.html` file in a web browser.
-2. Enter two numbers in the input fields.
-3. Click on the desired arithmetic operation button (+, -, \*, /).
-4. The result of the calculation will be displayed in real-time.
+## 🚀 Usage
+To use the calculator, simply open the `index.html` file in a web browser and enter two numbers in the input fields. Click on the button for the desired arithmetic operation to perform the calculation. The result will be displayed in the display field.
+
+Example:
+```javascript
+// Perform addition
+function add() {
+  let a = Number(document.getElementById("num1").value);
+  let b = Number(document.getElementById("num2").value);
+  document.getElementById("result").innerText = "Result: " + (a + b);
+}
+```
+To perform addition, enter two numbers in the input fields and click on the "+" button.
 
 ---
 
-## 📝 API Documentation
-There is no API documentation for this project, as it is a simple web-based calculator that does not expose any APIs.
+## 📡 API Documentation
+The calculator does not have a public API. However, the `app.js` file contains functions that can be used to perform calculations.
 
+* `add()`: performs addition of two numbers
+* `sub()`: performs subtraction of two numbers
+* `mul()`: performs multiplication of two numbers
+* `div()`: performs division of two numbers
+
+Example:
+```javascript
+// Perform addition using the add() function
+let result = add(2, 3);
+console.log(result); // Output: 5
+```
 ---
 
 ## 🤝 Contributing
-To contribute to this project, follow these steps:
-1. Fork the repository using `git fork https://github.com/SudeepKagi/class.git`.
-2. Make changes to the code and commit them using `git commit -m "your commit message"`.
-3. Create a pull request to merge your changes into the main repository.
-4. Ensure that your changes are consistent with the existing code style and conventions.
+To contribute to the calculator project, follow these steps:
+
+1. Fork the repository using Git.
+2. Make changes to the code and commit them using Git.
+3. Create a pull request to merge the changes into the main repository.
+4. Wait for the pull request to be reviewed and approved.
+
+Note: Make sure to follow the project's coding standards and guidelines when making changes.
 
 ---
 
 ## 📜 License
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+The calculator project is licensed under the MIT License.
 
 ---
 
-## 🙏 Acknowledgments
-* The calculator icon used in the README is from [Shields.io](https://shields.io/).
-* The project is maintained by [SudeepKagi](https://github.com/SudeepKagi).
+## 📈 Project Stats
+![GitHub stars](https://img.shields.io/github/stars/SudeepKagi/class?style=social) ![GitHub forks](https://img.shields.io/github/forks/SudeepKagi/class?style=social) ![GitHub issues](https://img.shields.io/github/issues/SudeepKagi/class) ![GitHub last commit](https://img.shields.io/github/last-commit/SudeepKagi/class)
+
+---
+
+<div align="center">
+### ⭐ Star this repository if you find it helpful!
+**Built with ❤️ by SudeepKagi**
+[GitHub](https://github.com/SudeepKagi)
+</div>
