@@ -32,41 +32,41 @@ The class repository is a simple web-based calculator that allows users to perfo
 * **Real-Time Calculations**: The calculator performs calculations in real-time, providing users with instant results.
 
 ## 🛠️ Tech Stack
-* **HTML5**: Used for structuring and presenting content on the web.
-* **JavaScript**: Used for adding interactivity to the calculator.
-* **No External Dependencies**: The calculator does not rely on any external libraries or frameworks.
+* **Frontend**: HTML5, JavaScript
+* **Backend**: None (client-side only)
 
 ## 📦 Installation
-To use the calculator, follow these steps:
-1. Clone the repository using `git clone https://github.com/SudeepKagi/class.git`.
-2. Open the `calculator` directory in your preferred code editor or IDE.
-3. Open the `index.html` file in a web browser to access the calculator.
+To use the calculator, simply clone the repository and open the `index.html` file in a web browser. No installation or setup is required.
+
+```bash
+git clone https://github.com/SudeepKagi/class.git
+cd class/calculator
+open index.html
+```
 
 ## 📚 Usage
 To use the calculator, follow these steps:
+
 1. Open the `index.html` file in a web browser.
-2. Enter the first number in the `num1` input field.
-3. Enter the second number in the `num2` input field.
+2. Enter the first number in the "Enter first number" input field.
+3. Enter the second number in the "Enter second number" input field.
 4. Select the desired operation by clicking on the corresponding button (+, -, ×, ÷).
-5. The result will be displayed below the input fields.
+5. The result of the calculation will be displayed below the input fields.
 
 ## 📝 API Documentation
-The calculator does not have a public API. However, the following functions are available in the `app.js` file:
-* `add()`: Performs the addition of two numbers.
-* `sub()`: Performs the subtraction of two numbers.
-* `mul()`: Performs the multiplication of two numbers.
-* `div()`: Performs the division of two numbers.
+No API documentation is provided, as the calculator does not expose any APIs.
 
 ## 🤝 Contributing
 Contributions are welcome! To contribute to the calculator, follow these steps:
-1. Fork the repository using `git fork https://github.com/SudeepKagi/class.git`.
-2. Make changes to the code and commit them using `git commit -m "Your commit message"`.
-3. Push the changes to your fork using `git push origin your-branch-name`.
-4. Create a pull request to merge your changes into the main repository.
+
+1. Fork the repository.
+2. Make changes to the code.
+3. Submit a pull request.
+
+Please ensure that your changes are consistent with the existing code style and do not introduce any bugs or errors.
 
 ## 📝 License
-The calculator is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+The class repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## 🙏 Acknowledgments
-* The calculator was built using HTML5, JavaScript, and is designed to be easy to use and understand.
-* The calculator's simplicity and ease of use make it an ideal tool for anyone looking to perform quick calculations, from students to professionals.
+Special thanks to the GitHub community for their support and contributions to the project.
