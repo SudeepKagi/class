@@ -13,13 +13,14 @@
 ---
 
 ## 🎯 Overview
-The class repository is a simple web-based calculator that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. This project exists to provide a straightforward and intuitive way for users to perform calculations without the need for external libraries or frameworks. The calculator is built using HTML5, JavaScript, and is designed to be easy to use and understand, making it accessible to a wide range of users.
+The class repository is a simple web-based calculator that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. This project exists to provide a straightforward and intuitive way for users to perform calculations without the need for external libraries or frameworks. The calculator is built using HTML5, JavaScript, and is designed to be easy to use and understand, making it accessible to a wide range of users. The calculator's simplicity and ease of use make it an ideal tool for anyone looking to perform quick calculations, from students to professionals.
 
 ### Why class?
 - **💻 Easy to Use**: The calculator has a simple and intuitive interface that makes it easy for users to perform calculations.
 - **📊 Fast Calculations**: The calculator performs calculations in real-time, providing users with instant results.
 - **🔒 No External Dependencies**: The calculator does not rely on any external libraries or frameworks, making it lightweight and easy to maintain.
 - **📈 Cross-Browser Compatibility**: The calculator is designed to work on multiple browsers, ensuring that users can access it from their preferred browser.
+- **🎯 Accurate Results**: The calculator provides accurate results, ensuring that users can trust the calculations.
 
 ---
 
@@ -32,24 +33,30 @@ The class repository is a simple web-based calculator that allows users to perfo
 * **User Interface**:
   + Simple and intuitive interface
   + Input fields for two numbers
-  + Buttons for each operation
-  + Display field for results
+  + Buttons for each arithmetic operation
+  + Display field for calculation results
 * **Error Handling**:
-  + Handles invalid input (e.g., non-numeric characters)
   + Handles division by zero errors
+  + Handles invalid input errors
 
 ---
 
 ## 🏗️ Architecture
 ```
 ┌────────────────────┐
-│  index.html     │
-│  (User Interface) │
-└────────────────────┘
-           ↓
-┌────────────────────┐
-│  app.js          │
-│  (Calculator Logic) │
+│  index.html    │
+├────────────────────┤
+│  app.js         │
+├────────────────────┤
+│  Calculator     │
+│  (HTML, JS)     │
+├────────────────────┤
+│  User Interface │
+│  (Input, Buttons,│
+│   Display)       │
+├────────────────────┤
+│  Arithmetic      │
+│  Operations      │
 └────────────────────┘
 ```
 
@@ -58,93 +65,87 @@ The class repository is a simple web-based calculator that allows users to perfo
 ## 🛠️ Tech Stack
 | Technology | Purpose | Version |
 | --- | --- | --- |
-| HTML5 | Structuring and presenting content | 5 |
-| JavaScript | Handling user input and performing calculations | ES6 |
-| No external libraries or frameworks are used |  |  |
+| HTML5 | User Interface | 5 |
+| JavaScript | Arithmetic Operations | ES6 |
+| CSS | Styling | 3 |
+
+Note: The versions listed are based on the code provided and may not reflect the latest versions available.
 
 ---
 
 ## 📦 Installation
 ### Prerequisites
-* A web browser (e.g., Google Chrome, Mozilla Firefox)
-* A code editor (e.g., Visual Studio Code, Sublime Text)
+* A web browser (e.g. Google Chrome, Mozilla Firefox)
+* A code editor (e.g. Visual Studio Code, Sublime Text)
+* Basic knowledge of HTML, JavaScript, and CSS
 
 ### Steps
-1. Clone the repository using `git clone https://github.com/SudeepKagi/class.git`
-2. Navigate to the `calculator` directory
-3. Open the `index.html` file in a web browser
-
+1. Clone the repository using Git:
 ```bash
 git clone https://github.com/SudeepKagi/class.git
-cd calculator
 ```
-
-```javascript
-// Open index.html in a web browser
-```
+2. Open the `index.html` file in a web browser to view the calculator.
+3. Open the `app.js` file in a code editor to view the JavaScript code.
+4. Modify the code as needed to add new features or fix bugs.
 
 ---
 
 ## 🚀 Usage
-To use the calculator, simply open the `index.html` file in a web browser and follow these steps:
-
+To use the calculator, simply open the `index.html` file in a web browser and enter two numbers in the input fields. Click the button corresponding to the arithmetic operation you want to perform, and the result will be displayed in the display field.
 ```javascript
-// Enter two numbers
+// Example usage:
+// Enter two numbers in the input fields
 document.getElementById("num1").value = 10;
 document.getElementById("num2").value = 5;
 
-// Perform addition
-add();
+// Click the addition button
+document.getElementById("add").click();
 
-// Perform subtraction
-sub();
-
-// Perform multiplication
-mul();
-
-// Perform division
-div();
-```
-
-```html
-<!-- Example usage -->
-<input type="number" id="num1" value="10">
-<input type="number" id="num2" value="5">
-<button onclick="add()">+</button>
-<button onclick="sub()">-</button>
-<button onclick="mul()">×</button>
-<button onclick="div()">÷</button>
-<h3 id="result">Result: </h3>
+// The result will be displayed in the display field
+console.log(document.getElementById("result").innerText); // Output: "Result: 15"
 ```
 
 ---
 
 ## 📡 API Documentation
-No API is exposed by this application, as it is a simple web-based calculator.
+The calculator does not have a public API, but the `app.js` file provides a simple API for performing arithmetic operations:
+```javascript
+// Example API usage:
+function add(a, b) {
+  return a + b;
+}
 
----
+function sub(a, b) {
+  return a - b;
+}
 
-## 🤝 Contributing
-Contributions are welcome! To contribute to the class repository, follow these steps:
+function mul(a, b) {
+  return a * b;
+}
 
-1. Fork the repository using the "Fork" button on GitHub
-2. Make changes to the code and commit them with a descriptive message
-3. Create a pull request to merge your changes into the main repository
-4. Ensure that your changes do not break existing functionality
-
-```bash
-git fork https://github.com/SudeepKagi/class.git
-git clone https://github.com/your-username/class.git
-cd class
-git add .
-git commit -m "Descriptive commit message"
-git push origin your-branch
+function div(a, b) {
+  if (b === 0) {
+    throw new Error("Division by zero");
+  }
+  return a / b;
+}
 ```
 
 ---
 
+## 🤝 Contributing
+To contribute to the calculator project, follow these steps:
+1. Fork the repository using Git.
+2. Create a new branch for your feature or bug fix.
+3. Make changes to the code and commit them.
+4. Push the changes to your fork.
+5. Create a pull request to merge your changes into the main repository.
+6. Wait for the pull request to be reviewed and merged.
+
+---
+
 ## 📜 License
-The class repository is licensed under the MIT License. See the LICENSE file for more information.
+The calculator project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
 
