@@ -22,51 +22,45 @@ The class repository is a simple web-based calculator that allows users to perfo
 - **📈 Cross-Browser Compatibility**: The calculator is designed to work on multiple browsers, ensuring that users can access it from their preferred browser.
 - **🎯 Accurate Results**: The calculator provides accurate results, ensuring that users can trust the calculations.
 
----
-
 ## ✨ Features
 * **Arithmetic Operations**:
-  + Addition: performs addition of two numbers using the `add()` function.
-  + Subtraction: performs subtraction of two numbers using the `sub()` function.
-  + Multiplication: performs multiplication of two numbers using the `mul()` function.
-  + Division: performs division of two numbers using the `div()` function.
-* **User Input**: allows users to input two numbers using HTML input fields.
-* **Real-time Results**: displays the result of the calculation in real-time using JavaScript.
+  + Addition: `add()` function that takes two numbers as input and returns their sum.
+  + Subtraction: `sub()` function that takes two numbers as input and returns their difference.
+  + Multiplication: `mul()` function that takes two numbers as input and returns their product.
+  + Division: `div()` function that takes two numbers as input and returns their quotient.
+* **User Interface**:
+  + Simple and intuitive interface with input fields for two numbers and buttons for each arithmetic operation.
+  + Real-time calculation and display of results.
 
 ## 🛠️ Tech Stack
 * **Frontend**: HTML5, JavaScript
-* **No Backend**: the calculator does not require a backend server, making it a static web application.
+* **No Backend**: The calculator does not require a backend server, making it a lightweight and easy-to-deploy solution.
 
-## 📚 Installation
-To use the calculator, simply clone the repository and open the `calculator/index.html` file in a web browser.
+## 📦 Installation
+To use the calculator, simply clone the repository and open the `index.html` file in a web browser. No installation or setup is required.
 
-### Step-by-Step Instructions
-1. Clone the repository using `git clone https://github.com/SudeepKagi/class.git`.
-2. Navigate to the `calculator` directory using `cd calculator`.
-3. Open the `index.html` file in a web browser using `open index.html` (on macOS) or `start index.html` (on Windows).
-
-## 📊 Usage
-To use the calculator, follow these steps:
-
+## 📚 Usage
 1. Open the `index.html` file in a web browser.
 2. Enter two numbers in the input fields.
-3. Click on the desired arithmetic operation button (+, -, ×, ÷).
-4. The result of the calculation will be displayed in real-time.
+3. Click on the button corresponding to the desired arithmetic operation.
+4. The result will be displayed in real-time.
 
-## 📄 API Documentation
-There is no API documentation for this project, as it is a simple web-based calculator that does not expose any APIs.
+## 📝 API Documentation
+The calculator does not have a public API. However, the following functions are available for use:
+* `add()`: Takes two numbers as input and returns their sum.
+* `sub()`: Takes two numbers as input and returns their difference.
+* `mul()`: Takes two numbers as input and returns their product.
+* `div()`: Takes two numbers as input and returns their quotient.
 
 ## 🤝 Contributing
-Contributions are welcome! To contribute to this project, please follow these steps:
+Contributions are welcome! To contribute to the calculator, please follow these steps:
+1. Fork the repository.
+2. Make changes to the code.
+3. Submit a pull request.
+Please ensure that your changes are consistent with the existing code style and do not introduce any bugs or errors.
 
-1. Fork the repository using the "Fork" button on GitHub.
-2. Clone the forked repository using `git clone https://github.com/your-username/class.git`.
-3. Make changes to the code and commit them using `git commit -m "your commit message"`.
-4. Push the changes to your forked repository using `git push origin your-branch-name`.
-5. Create a pull request to merge your changes into the main repository.
+## 📝 License
+The class repository is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-### Code of Conduct
-This project follows the standard GitHub code of conduct. Be respectful and professional in your interactions with other contributors.
-
-### License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## 📞 Contact
+For any questions or issues, please contact [SudeepKagi](https://github.com/SudeepKagi).
