@@ -1,55 +1,73 @@
-# Simple Calculator
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717.svg)](https://github.com/user/class)
-[![License](https://img.shields.io/badge/License-MIT-ff69b4.svg)](https://github.com/user/class/blob/main/LICENSE)
+# 🚀 class - A Simple Web-Based Calculator
+<div align="center">
 
-A basic web-based calculator that performs addition, subtraction, multiplication, and division operations.
+![Badge](https://img.shields.io/badge/class-A_Simple_Web_Based_Calculator-4F46E5?style=for-the-badge)
+[![GitHub stars](https://img.shields.io/github/stars/SudeepKagi/class?style=for-the-badge)](https://github.com/SudeepKagi/class/stargazers)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-## Description
-The Simple Calculator is a web application that allows users to perform basic arithmetic operations. It consists of a simple HTML interface with input fields for two numbers and buttons for each operation. The calculator uses JavaScript to handle user input and display the results.
+**Perform Basic Arithmetic Operations with Ease**
 
-## Key Features
-* Performs addition, subtraction, multiplication, and division operations
-* Simple and intuitive user interface
-* Handles user input and displays results in real-time
+[Addition](#features) • [Subtraction](#features) • [Multiplication](#features) • [Division](#features) • [Installation](#installation) • [Usage](#usage)
+</div>
 
-## Tech Stack
-* HTML5 for structuring and presenting content
-* JavaScript for handling user input and performing calculations
-* No external libraries or frameworks are used
+---
 
-## Installation Instructions
-To run the Simple Calculator, follow these steps:
-1. Clone the repository using `git clone https://github.com/user/class.git`
-2. Navigate to the `calculator` directory
-3. Open the `index.html` file in a web browser
+## 🎯 Overview
+The class repository is a simple web-based calculator that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. This project exists to provide a straightforward and intuitive way for users to perform calculations without the need for external libraries or frameworks. The calculator is built using HTML5, JavaScript, and is designed to be easy to use and understand, making it accessible to a wide range of users. The calculator's simplicity and ease of use make it an ideal tool for anyone looking to perform quick calculations, from students to professionals.
 
-## Usage Guide
-1. Enter the first number in the "Enter first number" input field
-2. Enter the second number in the "Enter second number" input field
-3. Click the button corresponding to the desired operation (+, -, ×, ÷)
-4. The result will be displayed below the buttons
+### Why class?
+- **💻 Easy to Use**: The calculator has a simple and intuitive interface that makes it easy for users to perform calculations.
+- **📊 Fast Calculations**: The calculator performs calculations in real-time, providing users with instant results.
+- **🔒 No External Dependencies**: The calculator does not rely on any external libraries or frameworks, making it lightweight and easy to maintain.
+- **📈 Cross-Browser Compatibility**: The calculator is designed to work on multiple browsers, ensuring that users can access it from their preferred browser.
+- **🎯 Accurate Results**: The calculator provides accurate results, ensuring that users can trust the calculations.
 
-## API Documentation
-No API is exposed by this application, as it is a simple web-based calculator.
+## ✨ Features
+* **Arithmetic Operations**:
+  + Addition: Performs the addition of two numbers.
+  + Subtraction: Performs the subtraction of two numbers.
+  + Multiplication: Performs the multiplication of two numbers.
+  + Division: Performs the division of two numbers.
+* **User-Friendly Interface**: The calculator has a simple and intuitive interface that makes it easy for users to perform calculations.
+* **Real-Time Results**: The calculator provides real-time results, allowing users to see the outcome of their calculations instantly.
 
-## Contributing Guidelines
-Contributions are welcome! To contribute to the Simple Calculator, follow these steps:
-1. Fork the repository using the "Fork" button on GitHub
-2. Make changes to the code and commit them with a descriptive message
-3. Create a pull request to merge your changes into the main repository
-4. Ensure that your changes do not break existing functionality and follow the same coding style as the rest of the codebase
+## 🛠️ Tech Stack
+* **HTML5**: Used for structuring and presenting content on the web.
+* **JavaScript**: Used for adding interactivity to the calculator.
+* **No External Libraries or Frameworks**: The calculator does not rely on any external libraries or frameworks, making it lightweight and easy to maintain.
 
-### Code Style
-* Use consistent indentation (4 spaces)
-* Use descriptive variable names and function names
-* Keep functions short and focused on a single task
+## 📦 Installation
+To use the calculator, follow these steps:
+1. Clone the repository using `git clone https://github.com/SudeepKagi/class.git`.
+2. Open the `calculator` directory in your preferred code editor or IDE.
+3. Open the `index.html` file in a web browser to access the calculator.
 
-### Commit Messages
-* Use the imperative mood (e.g. "Add feature" instead of "Added feature")
-* Keep messages concise and descriptive
+## 📚 Usage
+To use the calculator, follow these steps:
+1. Open the `index.html` file in a web browser.
+2. Enter the first number in the `num1` input field.
+3. Enter the second number in the `num2` input field.
+4. Click on the desired arithmetic operation button (+, -, ×, ÷).
+5. The result of the calculation will be displayed below the input fields.
 
-### Pull Requests
-* Ensure that your pull request includes a descriptive title and message
-* Use GitHub's built-in code review tools to discuss changes and address feedback
+## 📝 API Documentation
+The calculator does not have a public API. However, the following functions are available for use:
+* `add()`: Performs the addition of two numbers.
+* `sub()`: Performs the subtraction of two numbers.
+* `mul()`: Performs the multiplication of two numbers.
+* `div()`: Performs the division of two numbers.
 
-By following these guidelines, you can help improve the Simple Calculator and make it a more useful tool for users.
+## 🤝 Contributing
+To contribute to the calculator, follow these steps:
+1. Fork the repository using `git fork https://github.com/SudeepKagi/class.git`.
+2. Make the desired changes to the code.
+3. Commit the changes using `git commit -m "brief description of changes"`.
+4. Push the changes to your forked repository using `git push origin main`.
+5. Create a pull request to merge the changes into the main repository.
+
+## 📝 License
+The calculator is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+## 🙏 Acknowledgments
+* The calculator was built using HTML5 and JavaScript.
+* The calculator's design and functionality were inspired by the need for a simple and intuitive way to perform basic arithmetic operations.
