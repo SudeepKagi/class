@@ -26,14 +26,13 @@ The class repository is a simple web-based calculator that allows users to perfo
 
 ## ✨ Features
 * **Arithmetic Operations**:
-  + Addition: allows users to add two numbers together
-  + Subtraction: allows users to subtract one number from another
-  + Multiplication: allows users to multiply two numbers together
-  + Division: allows users to divide one number by another
+  + Addition: performs addition of two numbers
+  + Subtraction: performs subtraction of two numbers
+  + Multiplication: performs multiplication of two numbers
+  + Division: performs division of two numbers
 * **User Interface**:
-  + Simple and intuitive design
-  + Easy to use input fields for entering numbers
-  + Clear and concise display of calculation results
+  + Simple and intuitive interface
+  + Easy to use and understand
 * **Error Handling**:
   + Handles division by zero errors
   + Handles invalid input errors
@@ -43,12 +42,17 @@ The class repository is a simple web-based calculator that allows users to perfo
 ## 🏗️ Architecture
 ```
 ┌────────────────────┐
-│  index.html     │
+│  index.html    │
 ├────────────────────┤
-│  app.js          │
+│  app.js         │
 ├────────────────────┤
-│  Calculator      │
-│  (HTML, JS)      │
+│  Calculator     │
+│  (add, sub, mul, │
+│   div functions) │
+├────────────────────┤
+│  User Interface │
+│  (input fields,  │
+│   buttons)       │
 └────────────────────┘
 ```
 
@@ -67,69 +71,93 @@ Note: The versions listed are based on the code provided and may not reflect the
 
 ## 📦 Installation
 ### Prerequisites
-* A modern web browser (e.g. Google Chrome, Mozilla Firefox)
-* A code editor or IDE (e.g. Visual Studio Code, Sublime Text)
+* A web browser (e.g. Google Chrome, Mozilla Firefox)
+* A code editor (e.g. Visual Studio Code, Sublime Text)
 
 ### Steps
 1. Clone the repository using the following command:
 ```bash
 git clone https://github.com/SudeepKagi/class.git
 ```
-2. Open the `calculator` directory in your code editor or IDE.
-3. Open the `index.html` file in a web browser to use the calculator.
+2. Open the `index.html` file in a web browser to use the calculator.
+3. Open the `app.js` file in a code editor to view the calculator logic.
 
 ---
 
 ## 🚀 Usage
-To use the calculator, simply open the `index.html` file in a web browser and enter two numbers into the input fields. Then, select the desired arithmetic operation using the buttons provided. The result of the calculation will be displayed below the input fields.
-
-Example:
+To use the calculator, simply open the `index.html` file in a web browser and enter two numbers in the input fields. Then, click on the desired operation button (e.g. +, -, \*, /) to perform the calculation.
 ```javascript
-// Get the input fields and result element
-const num1 = document.getElementById("num1");
-const num2 = document.getElementById("num2");
-const result = document.getElementById("result");
+// Example usage:
+// Enter two numbers in the input fields
+document.getElementById("num1").value = 10;
+document.getElementById("num2").value = 2;
 
-// Set the input values
-num1.value = 10;
-num2.value = 5;
-
-// Perform the calculation
+// Perform addition
 add();
-
-// Display the result
-console.log(result.innerText); // Output: "Result: 15"
 ```
+This will display the result of the calculation in the `result` element.
 
 ---
 
 ## 📡 API Documentation
-There is no API provided for this project, as it is a simple web-based calculator.
+The calculator does not have a public API. However, the `app.js` file provides a simple API for performing arithmetic operations:
+```javascript
+// Perform addition
+function add() {
+  let a = Number(document.getElementById("num1").value);
+  let b = Number(document.getElementById("num2").value);
+  document.getElementById("result").innerText = "Result: " + (a + b);
+}
+
+// Perform subtraction
+function sub() {
+  let a = Number(document.getElementById("num1").value);
+  let b = Number(document.getElementById("num2").value);
+  document.getElementById("result").innerText = "Result: " + (a - b);
+}
+
+// Perform multiplication
+function mul() {
+  let a = Number(document.getElementById("num1").value);
+  let b = Number(document.getElementById("num2").value);
+  document.getElementById("result").innerText = "Result: " + a * b;
+}
+
+// Perform division
+function div() {
+  let a = Number(document.getElementById("num1").value);
+  let b = Number(document.getElementById("num2").value);
+  document.getElementById("result").innerText = "Result: " + a / b;
+}
+```
+These functions can be called from other JavaScript files to perform arithmetic operations.
 
 ---
 
 ## 🤝 Contributing
 To contribute to this project, please follow these steps:
-
-1. Fork the repository using the GitHub web interface.
-2. Clone the forked repository to your local machine using the following command:
+1. Fork the repository using the following command:
+```bash
+git fork https://github.com/SudeepKagi/class.git
+```
+2. Clone the forked repository using the following command:
 ```bash
 git clone https://github.com/your-username/class.git
 ```
-3. Make your changes to the code and commit them using the following command:
+3. Make changes to the code and commit them using the following command:
 ```bash
-git commit -m "Your commit message"
+git commit -m "your commit message"
 ```
-4. Push your changes to your forked repository using the following command:
+4. Push the changes to the forked repository using the following command:
 ```bash
 git push origin your-branch-name
 ```
-5. Create a pull request to the original repository using the GitHub web interface.
+5. Create a pull request to merge the changes into the main repository.
 
 ---
 
 ## 📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
