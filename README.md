@@ -32,41 +32,37 @@ The class repository is a simple web-based calculator that allows users to perfo
 * **Real-Time Calculations**: The calculator performs calculations in real-time, providing users with instant results.
 
 ## 🛠️ Tech Stack
-* **Frontend**: HTML5, JavaScript
-* **Backend**: None (client-side only)
+* **HTML5**: Used for structuring and presenting content on the web.
+* **JavaScript**: Used for adding interactivity to the calculator.
+* **No External Libraries or Frameworks**: The calculator does not rely on any external libraries or frameworks, making it lightweight and easy to maintain.
 
 ## 📦 Installation
-To use the calculator, simply clone the repository and open the `index.html` file in a web browser. No installation or setup is required.
-
-```bash
-git clone https://github.com/SudeepKagi/class.git
-cd class/calculator
-open index.html
-```
+To use the calculator, follow these steps:
+1. Clone the repository using `git clone https://github.com/SudeepKagi/class.git`.
+2. Open the `calculator/index.html` file in a web browser.
+3. The calculator is now ready to use.
 
 ## 📚 Usage
 To use the calculator, follow these steps:
-
-1. Open the `index.html` file in a web browser.
+1. Open the `calculator/index.html` file in a web browser.
 2. Enter the first number in the "Enter first number" input field.
 3. Enter the second number in the "Enter second number" input field.
 4. Select the desired operation by clicking on the corresponding button (+, -, ×, ÷).
 5. The result of the calculation will be displayed below the input fields.
 
 ## 📝 API Documentation
-No API documentation is provided, as the calculator does not expose any APIs.
+There is no API documentation for this project, as it is a simple web-based calculator that does not provide any API endpoints.
 
 ## 🤝 Contributing
-Contributions are welcome! To contribute to the calculator, follow these steps:
-
-1. Fork the repository.
-2. Make changes to the code.
-3. Submit a pull request.
-
-Please ensure that your changes are consistent with the existing code style and do not introduce any bugs or errors.
+To contribute to this project, follow these steps:
+1. Fork the repository using `git fork https://github.com/SudeepKagi/class.git`.
+2. Make the desired changes to the code.
+3. Commit the changes using `git commit -m "Description of changes"`.
+4. Push the changes to the forked repository using `git push origin main`.
+5. Create a pull request to merge the changes into the main repository.
 
 ## 📝 License
-The class repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
-Special thanks to the GitHub community for their support and contributions to the project.
+Special thanks to anyone who has contributed to this project. Your contributions are greatly appreciated!
