@@ -28,13 +28,11 @@ The class repository is a simple web-based calculator that allows users to perfo
   + Subtraction: `sub()` function that takes two numbers as input and returns their difference.
   + Multiplication: `mul()` function that takes two numbers as input and returns their product.
   + Division: `div()` function that takes two numbers as input and returns their quotient.
-* **User Interface**:
-  + Simple and intuitive interface with input fields for two numbers and buttons for each arithmetic operation.
-  + Real-time calculation and display of results.
 
 ## 🛠️ Tech Stack
 * **Frontend**: HTML5, JavaScript
-* **No Backend**: The calculator does not require a backend server, making it a lightweight and easy-to-deploy solution.
+* **No Backend**: The calculator is a client-side application and does not require a backend server.
+* **No Database**: The calculator does not store any data and does not require a database.
 
 ## 📦 Installation
 To use the calculator, simply clone the repository and open the `index.html` file in a web browser. No installation or setup is required.
@@ -42,11 +40,11 @@ To use the calculator, simply clone the repository and open the `index.html` fil
 ## 📚 Usage
 1. Open the `index.html` file in a web browser.
 2. Enter two numbers in the input fields.
-3. Click on the button corresponding to the desired arithmetic operation.
-4. The result will be displayed in real-time.
+3. Click on the desired arithmetic operation button (+, -, \*, /).
+4. The result will be displayed below the buttons.
 
 ## 📝 API Documentation
-The calculator does not have a public API. However, the following functions are available for use:
+The calculator does not have a public API. The `app.js` file contains four functions:
 * `add()`: Takes two numbers as input and returns their sum.
 * `sub()`: Takes two numbers as input and returns their difference.
 * `mul()`: Takes two numbers as input and returns their product.
@@ -57,10 +55,12 @@ Contributions are welcome! To contribute to the calculator, please follow these 
 1. Fork the repository.
 2. Make changes to the code.
 3. Submit a pull request.
-Please ensure that your changes are consistent with the existing code style and do not introduce any bugs or errors.
+4. Wait for the pull request to be reviewed and merged.
 
-## 📝 License
-The class repository is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+## 📄 License
+The class repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-## 📞 Contact
-For any questions or issues, please contact [SudeepKagi](https://github.com/SudeepKagi).
+## 📢 Acknowledgments
+* The calculator was built using HTML5 and JavaScript.
+* The calculator is designed to be easy to use and understand.
+* The calculator is free to use and distribute.
