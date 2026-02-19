@@ -26,29 +26,31 @@ The class repository is a simple web-based calculator that allows users to perfo
 
 ## ✨ Features
 * **Arithmetic Operations**:
-  + Addition: Performs addition of two numbers.
-  + Subtraction: Performs subtraction of two numbers.
-  + Multiplication: Performs multiplication of two numbers.
-  + Division: Performs division of two numbers.
+  + Addition: allows users to add two numbers together
+  + Subtraction: allows users to subtract one number from another
+  + Multiplication: allows users to multiply two numbers together
+  + Division: allows users to divide one number by another
 * **User Interface**:
-  + Simple and intuitive interface for easy use.
-  + Input fields for entering numbers.
-  + Buttons for performing arithmetic operations.
-  + Display field for showing results.
+  + Simple and intuitive design
+  + Easy to use input fields for entering numbers
+  + Clear and concise display of calculation results
+* **Error Handling**:
+  + Handles division by zero errors
+  + Handles invalid input errors
 
 ---
 
 ## 🏗️ Architecture
 ```
-┌────────────────────┐
-│  index.html      │
-│  (User Interface) │
-└────────────────────┘
-        ↓
-┌────────────────────┐
-│  app.js          │
-│  (Calculator Logic) │
-└────────────────────┘
+┌────────────┐
+│  index.html  │
+├────────────┤
+│  app.js     │
+├────────────┤
+│  calculator  │
+│  (input fields,  │
+│   buttons, result) │
+└────────────┘
 ```
 
 ---
@@ -74,30 +76,28 @@ Note: The versions listed are based on the code provided and may not reflect the
 ```bash
 git clone https://github.com/SudeepKagi/class.git
 ```
-2. Open the `index.html` file in a web browser to access the calculator.
+2. Open the `index.html` file in a web browser to use the calculator.
 3. Open the `app.js` file in a code editor to view the calculator logic.
 
 ---
 
 ## 🚀 Usage
-To use the calculator, simply enter two numbers in the input fields and click on the desired arithmetic operation button. The result will be displayed in the display field.
+To use the calculator, simply open the `index.html` file in a web browser and enter two numbers into the input fields. Then, select the desired arithmetic operation using the buttons provided. The result will be displayed below the input fields.
+
+Example:
 ```javascript
-// Example usage:
-// Enter two numbers in the input fields
-document.getElementById("num1").value = 10;
-document.getElementById("num2").value = 5;
-
-// Perform addition
-add();
-
-// Display the result
-console.log(document.getElementById("result").innerText);
+// Add two numbers together
+function add() {
+  let a = Number(document.getElementById("num1").value);
+  let b = Number(document.getElementById("num2").value);
+  document.getElementById("result").innerText = "Result: " + (a + b);
+}
 ```
 
 ---
 
 ## 📡 API Documentation
-Not applicable, as this is a simple web-based calculator and does not provide an API.
+There is no API provided for this project, as it is a simple web-based calculator.
 
 ---
 
@@ -109,18 +109,18 @@ git fork https://github.com/SudeepKagi/class.git
 ```
 2. Make changes to the code and commit them using the following command:
 ```bash
-git commit -m "Description of changes"
+git commit -m "brief description of changes"
 ```
 3. Push the changes to the forked repository using the following command:
 ```bash
 git push origin master
 ```
-4. Create a pull request to merge the changes into the main repository.
+4. Create a pull request to the original repository.
 
 ---
 
 ## 📜 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
 
