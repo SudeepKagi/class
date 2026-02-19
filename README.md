@@ -24,43 +24,47 @@ The class repository is a simple web-based calculator that allows users to perfo
 
 ## ✨ Features
 * **Arithmetic Operations**:
-  + Addition: `add()` function that takes two numbers as input and returns their sum.
-  + Subtraction: `sub()` function that takes two numbers as input and returns their difference.
-  + Multiplication: `mul()` function that takes two numbers as input and returns their product.
-  + Division: `div()` function that takes two numbers as input and returns their quotient.
+  + Addition: Performs the addition of two numbers.
+  + Subtraction: Performs the subtraction of two numbers.
+  + Multiplication: Performs the multiplication of two numbers.
+  + Division: Performs the division of two numbers.
+* **User-Friendly Interface**: The calculator has a simple and intuitive interface that makes it easy for users to perform calculations.
+* **Real-Time Calculations**: The calculator performs calculations in real-time, providing users with instant results.
 
 ## 🛠️ Tech Stack
-* **Frontend**: HTML5, JavaScript
-* **No Backend**: The calculator is a client-side application and does not require a backend server.
-* **No Database**: The calculator does not store any data and does not require a database.
+* **HTML5**: Used for structuring and presenting content on the web.
+* **JavaScript**: Used for adding interactivity to the calculator.
+* **No External Libraries or Frameworks**: The calculator does not rely on any external libraries or frameworks, making it lightweight and easy to maintain.
 
 ## 📦 Installation
-To use the calculator, simply clone the repository and open the `index.html` file in a web browser. No installation or setup is required.
+To use the calculator, follow these steps:
+1. Clone the repository using `git clone https://github.com/SudeepKagi/class.git`.
+2. Open the `calculator` directory in a code editor or IDE.
+3. Open the `index.html` file in a web browser to access the calculator.
 
 ## 📚 Usage
+To use the calculator, follow these steps:
 1. Open the `index.html` file in a web browser.
-2. Enter two numbers in the input fields.
-3. Click on the desired arithmetic operation button (+, -, \*, /).
-4. The result will be displayed below the buttons.
+2. Enter the first number in the `num1` input field.
+3. Enter the second number in the `num2` input field.
+4. Click the button corresponding to the desired arithmetic operation.
+5. The result will be displayed below the input fields.
 
 ## 📝 API Documentation
-The calculator does not have a public API. The `app.js` file contains four functions:
-* `add()`: Takes two numbers as input and returns their sum.
-* `sub()`: Takes two numbers as input and returns their difference.
-* `mul()`: Takes two numbers as input and returns their product.
-* `div()`: Takes two numbers as input and returns their quotient.
+The calculator does not have a public API. However, the following functions are available in the `app.js` file:
+* `add()`: Performs the addition of two numbers.
+* `sub()`: Performs the subtraction of two numbers.
+* `mul()`: Performs the multiplication of two numbers.
+* `div()`: Performs the division of two numbers.
 
 ## 🤝 Contributing
-Contributions are welcome! To contribute to the calculator, please follow these steps:
-1. Fork the repository.
-2. Make changes to the code.
-3. Submit a pull request.
-4. Wait for the pull request to be reviewed and merged.
+To contribute to the calculator, follow these steps:
+1. Fork the repository using the "Fork" button on the GitHub repository page.
+2. Clone the forked repository using `git clone https://github.com/your-username/class.git`.
+3. Make the desired changes to the code.
+4. Commit the changes using `git commit -m "your-commit-message"`.
+5. Push the changes to the forked repository using `git push origin your-branch-name`.
+6. Create a pull request to merge the changes into the main repository.
 
 ## 📄 License
-The class repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
-## 📢 Acknowledgments
-* The calculator was built using HTML5 and JavaScript.
-* The calculator is designed to be easy to use and understand.
-* The calculator is free to use and distribute.
+The calculator is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
