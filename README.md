@@ -28,8 +28,8 @@ The class repository is a simple web-based calculator that allows users to perfo
   + Subtraction: Performs subtraction of two numbers.
   + Multiplication: Performs multiplication of two numbers.
   + Division: Performs division of two numbers.
-* **User Input**: Allows users to input two numbers for calculation.
-* **Real-time Results**: Displays calculation results in real-time.
+* **User Input**: Allows users to input two numbers using HTML input fields.
+* **Real-time Results**: Displays the result of the calculation in real-time.
 
 ## 🛠️ Tech Stack
 * **Frontend**: HTML5, JavaScript
@@ -44,23 +44,25 @@ To use the calculator, follow these steps:
 ## 📚 Usage
 To use the calculator, follow these steps:
 1. Open the `calculator/index.html` file in a web browser.
-2. Enter the first number in the `Enter first number` input field.
-3. Enter the second number in the `Enter second number` input field.
+2. Enter the first number in the "Enter first number" input field.
+3. Enter the second number in the "Enter second number" input field.
 4. Click on the desired arithmetic operation button (+, -, ×, ÷).
-5. The calculation result will be displayed below the input fields.
+5. The result of the calculation will be displayed below the input fields.
 
 ## 📝 API Documentation
-No API documentation is available as the calculator does not provide a public API.
+The calculator does not have a public API. However, the following functions are available in the `calculator/app.js` file:
+* `add()`: Performs addition of two numbers.
+* `sub()`: Performs subtraction of two numbers.
+* `mul()`: Performs multiplication of two numbers.
+* `div()`: Performs division of two numbers.
 
 ## 🤝 Contributing
-To contribute to the class repository, follow these steps:
+To contribute to the calculator, follow these steps:
 1. Fork the repository using `git fork https://github.com/SudeepKagi/class.git`.
-2. Make changes to the code and commit them using `git commit -m "commit message"`.
-3. Create a pull request to the main repository.
-4. The pull request will be reviewed and merged if it meets the repository's standards.
+2. Make the desired changes to the code.
+3. Commit the changes using `git commit -m "Description of changes"`.
+4. Push the changes to the forked repository using `git push origin main`.
+5. Create a pull request to the main repository.
 
 ## 📝 License
-The class repository is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
-
-## 📞 Contact
-For any questions or issues, please contact the repository owner at [SudeepKagi](https://github.com/SudeepKagi).
+The calculator is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
