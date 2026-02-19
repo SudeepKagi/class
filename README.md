@@ -26,123 +26,56 @@ The class repository is a simple web-based calculator that allows users to perfo
 
 ## ✨ Features
 * **Arithmetic Operations**:
-  + Addition: allows users to add two numbers together
-  + Subtraction: allows users to subtract one number from another
-  + Multiplication: allows users to multiply two numbers together
-  + Division: allows users to divide one number by another
-* **User Interface**:
-  + Simple and intuitive design
-  + Easy to use input fields for entering numbers
-  + Clear and concise display of calculation results
-* **Error Handling**:
-  + Handles division by zero errors
-  + Handles invalid input errors
-
----
-
-## 🏗️ Architecture
-```
-┌────────────┐
-│  index.html  │
-├────────────┤
-│  app.js     │
-├────────────┤
-│  Calculator  │
-│  (HTML, JS)  │
-├────────────┤
-│  User Input  │
-│  (Numbers)    │
-├────────────┤
-│  Calculation  │
-│  (Add, Sub,   │
-│   Mul, Div)   │
-├────────────┤
-│  Result Display│
-└────────────┘
-```
+  + Addition: performs addition of two numbers
+  + Subtraction: performs subtraction of two numbers
+  + Multiplication: performs multiplication of two numbers
+  + Division: performs division of two numbers
+* **User-Friendly Interface**: simple and intuitive interface for easy use
+* **Real-Time Calculations**: performs calculations in real-time, providing instant results
 
 ---
 
 ## 🛠️ Tech Stack
-| Technology | Purpose | Version |
-| --- | --- | --- |
-| HTML5 | User Interface | 5 |
-| JavaScript | Calculator Logic | ES6 |
-| CSS | Styling | 3 |
-
-Note: The versions listed are based on the code provided and may not reflect the latest versions available.
+* **Frontend**: HTML5, JavaScript
+* **No External Dependencies**: no external libraries or frameworks are used
 
 ---
 
 ## 📦 Installation
-### Prerequisites
-* A web browser (e.g. Google Chrome, Mozilla Firefox)
-* A code editor (e.g. Visual Studio Code, Sublime Text)
-
-### Steps
-1. Clone the repository using the following command:
-```bash
-git clone https://github.com/SudeepKagi/class.git
-```
-2. Open the `index.html` file in a web browser to use the calculator.
-3. To edit the code, open the `app.js` file in a code editor and make changes as needed.
+To use the calculator, follow these steps:
+1. Clone the repository using `git clone https://github.com/SudeepKagi/class.git`
+2. Open the `calculator/index.html` file in a web browser
+3. The calculator is now ready to use
 
 ---
 
-## 🚀 Usage
-To use the calculator, simply open the `index.html` file in a web browser and enter two numbers in the input fields. Then, select the desired arithmetic operation using the buttons provided. The result will be displayed below the input fields.
-
-Example:
-```javascript
-// Add two numbers together
-function add() {
-  let a = Number(document.getElementById("num1").value);
-  let b = Number(document.getElementById("num2").value);
-  document.getElementById("result").innerText = "Result: " + (a + b);
-}
-```
-To perform a calculation, call the corresponding function (e.g. `add()`, `sub()`, etc.) and pass in the desired numbers.
+## 📚 Usage
+To use the calculator, follow these steps:
+1. Enter the first number in the `Enter first number` input field
+2. Enter the second number in the `Enter second number` input field
+3. Click on the desired operation button (+, -, ×, ÷)
+4. The result will be displayed below the buttons
 
 ---
 
-## 📡 API Documentation
-Since this is a simple web-based calculator, there is no API to document. However, the calculator does provide a simple interface for performing arithmetic operations.
+## 📝 API Documentation
+No API documentation is available as this is a simple web-based calculator.
 
 ---
 
 ## 🤝 Contributing
-To contribute to this project, please follow these steps:
-
-1. Fork the repository using the "Fork" button on GitHub.
-2. Clone the forked repository to your local machine using the following command:
-```bash
-git clone https://github.com/your-username/class.git
-```
-3. Make changes to the code as needed.
-4. Commit the changes using the following command:
-```bash
-git commit -m "Your commit message"
-```
-5. Push the changes to your forked repository using the following command:
-```bash
-git push origin your-branch-name
-```
-6. Create a pull request to merge the changes into the main repository.
+Contributions are welcome! To contribute to the project, follow these steps:
+1. Fork the repository using `git fork https://github.com/SudeepKagi/class.git`
+2. Make the desired changes
+3. Create a pull request with a detailed description of the changes
+4. The changes will be reviewed and merged if approved
 
 ---
 
-## 📜 License
+## 📝 License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📈 Project Stats
-![GitHub stars](https://img.shields.io/github/stars/SudeepKagi/class?style=social) ![GitHub forks](https://img.shields.io/github/forks/SudeepKagi/class?style=social) ![GitHub issues](https://img.shields.io/github/issues/SudeepKagi/class) ![GitHub last commit](https://img.shields.io/github/last-commit/SudeepKagi/class)
-
----
-
-<div align="center">
-### ⭐ Star this repository if you find it helpful!
-**Built with ❤️ by SudeepKagi**
-[GitHub](https://github.com/SudeepKagi)
-</div>
+## 📞 Contact
+For any questions or concerns, please contact [SudeepKagi](https://github.com/SudeepKagi)
