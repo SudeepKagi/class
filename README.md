@@ -28,47 +28,43 @@ The class repository is a simple web-based calculator that allows users to perfo
   + Subtraction: Performs the subtraction of two numbers.
   + Multiplication: Performs the multiplication of two numbers.
   + Division: Performs the division of two numbers.
-* **User-Friendly Interface**: The calculator features a simple and intuitive interface that makes it easy for users to enter numbers and select operations.
+* **User-Friendly Interface**: The calculator has a simple and intuitive interface that makes it easy for users to perform calculations.
 * **Real-Time Calculations**: The calculator performs calculations in real-time, providing users with instant results.
 
 ## 🛠️ Tech Stack
-* **HTML5**: Used for structuring and presenting content on the web.
-* **JavaScript**: Used for adding interactivity to the calculator.
-* **No External Dependencies**: The calculator does not rely on any external libraries or frameworks.
+* **Frontend**: HTML5, JavaScript
+* **No Backend**: The calculator does not require a backend server to function.
+* **No Database**: The calculator does not require a database to store any data.
 
 ## 📦 Installation
-To use the calculator, simply clone the repository and open the `index.html` file in a web browser. No installation or setup is required.
-
-```bash
-# Clone the repository
-git clone https://github.com/SudeepKagi/class.git
-
-# Open the index.html file in a web browser
-```
+To use the calculator, follow these steps:
+1. Clone the repository using `git clone https://github.com/SudeepKagi/class.git`.
+2. Open the `calculator/index.html` file in a web browser.
+3. The calculator is now ready to use.
 
 ## 📚 Usage
 To use the calculator, follow these steps:
-
-1. Open the `index.html` file in a web browser.
-2. Enter the first number in the top input field.
-3. Enter the second number in the bottom input field.
-4. Select the desired operation by clicking one of the buttons (+, -, x, /).
-5. The result will be displayed below the input fields.
+1. Enter the first number in the `num1` input field.
+2. Enter the second number in the `num2` input field.
+3. Click on the desired arithmetic operation button (+, -, \*, /).
+4. The result of the calculation will be displayed below the buttons.
 
 ## 📝 API Documentation
-No API documentation is available for this project, as it is a simple web-based calculator that does not provide any API endpoints.
+The calculator does not have a public API.
 
 ## 🤝 Contributing
-Contributions are welcome! To contribute to the project, follow these steps:
+To contribute to the calculator, follow these steps:
+1. Fork the repository using `git fork https://github.com/SudeepKagi/class.git`.
+2. Make the desired changes to the code.
+3. Commit the changes using `git commit -m "description of changes"`.
+4. Push the changes to the forked repository using `git push origin main`.
+5. Create a pull request to the main repository.
 
-1. Fork the repository.
-2. Make changes to the code.
-3. Submit a pull request.
+## 📄 License
+The calculator is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-Please ensure that all contributions are made in accordance with the project's license and guidelines.
+## 📝 Code of Conduct
+The calculator follows the standard GitHub code of conduct. See [CODE_OF_CONDUCT](CODE_OF_CONDUCT) for more information.
 
-## 📝 License
-The class repository is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
-
-## 🙏 Acknowledgments
-Special thanks to all contributors and users of the class repository. Your support and feedback are greatly appreciated!
+## 📞 Contact
+For any questions or issues, please contact [SudeepKagi](https://github.com/SudeepKagi).
