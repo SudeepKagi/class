@@ -30,20 +30,22 @@ The class repository is a simple web-based calculator that allows users to perfo
   + Subtraction: `sub()` function that takes two numbers as input and returns their difference.
   + Multiplication: `mul()` function that takes two numbers as input and returns their product.
   + Division: `div()` function that takes two numbers as input and returns their quotient.
-* **User Interface**: A simple and intuitive interface that allows users to input numbers and select the operation to perform.
-* **Real-time Results**: The calculator displays the result of the operation in real-time, without the need for page reloads or additional requests.
+* **User Interface**:
+  + Simple and intuitive interface with input fields for two numbers and buttons for each arithmetic operation.
+  + Real-time calculation and display of results.
 
 ---
 
 ## 🛠️ Tech Stack
-* **Frontend**: HTML5, JavaScript
-* **No Backend**: The calculator does not require a backend server, making it a fully client-side application.
-* **No External Libraries**: The calculator does not rely on any external libraries or frameworks, making it lightweight and easy to maintain.
+* **Frontend**:
+  + HTML5: Used for structuring and organizing content.
+  + JavaScript: Used for creating interactive elements and performing calculations.
+* **No Backend or Database**: The calculator is a client-side application and does not require a backend or database.
 
 ---
 
 ## 📦 Installation
-To use the calculator, simply clone the repository and open the `index.html` file in your preferred browser. No additional installation or setup is required.
+To use the calculator, simply clone the repository and open the `index.html` file in a web browser. No installation or setup is required.
 
 ```bash
 git clone https://github.com/SudeepKagi/class.git
@@ -54,45 +56,40 @@ open index.html
 ---
 
 ## 📚 Usage
-To use the calculator, follow these steps:
-
-1. Open the `index.html` file in your preferred browser.
-2. Enter the first number in the `num1` input field.
-3. Enter the second number in the `num2` input field.
-4. Select the operation to perform by clicking on the corresponding button (+, -, \*, /).
-5. The result of the operation will be displayed in real-time below the input fields.
+1. Open the `index.html` file in a web browser.
+2. Enter two numbers in the input fields.
+3. Click on the button corresponding to the desired arithmetic operation.
+4. The result will be displayed below the input fields.
 
 ---
 
 ## 📝 API Documentation
-The calculator does not provide a public API, as it is a fully client-side application. However, the following functions are available for use:
-
-* `add()`: Takes two numbers as input and returns their sum.
-* `sub()`: Takes two numbers as input and returns their difference.
-* `mul()`: Takes two numbers as input and returns their product.
-* `div()`: Takes two numbers as input and returns their quotient.
-
-These functions can be called from the `app.js` file, and can be used to perform calculations programmatically.
+No API documentation is provided as the calculator does not expose any APIs.
 
 ---
 
 ## 🤝 Contributing
-Contributions are welcome and encouraged. To contribute to the calculator, follow these steps:
+Contributions are welcome! To contribute, please fork the repository and submit a pull request with your changes. Ensure that your changes are consistent with the existing code style and do not introduce any bugs or errors.
 
-1. Fork the repository on GitHub.
-2. Clone the repository to your local machine.
-3. Make changes to the code, including any new features or bug fixes.
-4. Commit your changes and push them to your fork.
-5. Submit a pull request to the main repository.
+### Steps to Contribute
+1. Fork the repository.
+2. Clone the forked repository to your local machine.
+3. Make changes to the code.
+4. Commit changes with a meaningful commit message.
+5. Push changes to your forked repository.
+6. Submit a pull request to the original repository.
 
-Please ensure that all contributions are made in accordance with the MIT License, and that all code is written in a clear and concise manner.
+### Code of Conduct
+* Be respectful and considerate of others.
+* Follow standard professional guidelines for code style and formatting.
+* Ensure that changes do not introduce any bugs or errors.
 
 ---
 
-## 📝 License
-The class repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+## 📄 License
+The class repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
 ## 🙏 Acknowledgments
-The class repository was created by [SudeepKagi](https://github.com/SudeepKagi). Special thanks to anyone who has contributed to the repository, and to the open-source community for their support and encouragement.
+* Special thanks to [SudeepKagi](https://github.com/SudeepKagi) for creating and maintaining the class repository.
