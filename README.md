@@ -22,52 +22,115 @@ The class repository is a simple web-based calculator that allows users to perfo
 - **📈 Cross-Browser Compatibility**: The calculator is designed to work on multiple browsers, ensuring that users can access it from their preferred browser.
 - **🎯 Accurate Results**: The calculator provides accurate results, ensuring that users can trust the calculations.
 
+---
+
 ## ✨ Features
 * **Arithmetic Operations**:
-  + Addition: Performs the addition of two numbers.
-  + Subtraction: Performs the subtraction of two numbers.
-  + Multiplication: Performs the multiplication of two numbers.
-  + Division: Performs the division of two numbers.
-* **User-Friendly Interface**: The calculator has a simple and intuitive interface that makes it easy for users to perform calculations.
-* **Real-Time Results**: The calculator provides real-time results, allowing users to see the outcome of their calculations instantly.
+  + Addition: Performs addition of two numbers.
+  + Subtraction: Performs subtraction of two numbers.
+  + Multiplication: Performs multiplication of two numbers.
+  + Division: Performs division of two numbers.
+* **User Interface**:
+  + Simple and intuitive interface for easy use.
+  + Input fields for entering numbers.
+  + Buttons for performing arithmetic operations.
+  + Display field for showing results.
+
+---
+
+## 🏗️ Architecture
+```
+┌────────────────────┐
+│  index.html      │
+│  (User Interface) │
+└────────────────────┘
+        ↓
+┌────────────────────┐
+│  app.js          │
+│  (Calculator Logic) │
+└────────────────────┘
+```
+
+---
 
 ## 🛠️ Tech Stack
-* **HTML5**: Used for structuring and presenting content on the web.
-* **JavaScript**: Used for adding interactivity to the calculator.
-* **No External Libraries or Frameworks**: The calculator does not rely on any external libraries or frameworks, making it lightweight and easy to maintain.
+| Technology | Purpose | Version |
+| --- | --- | --- |
+| HTML5 | User Interface | 5 |
+| JavaScript | Calculator Logic | ES6 |
+| CSS | Styling | 3 |
+
+Note: The versions listed are based on the code provided and may not reflect the latest versions available.
+
+---
 
 ## 📦 Installation
-To use the calculator, follow these steps:
-1. Clone the repository using `git clone https://github.com/SudeepKagi/class.git`.
-2. Open the `calculator` directory in your preferred code editor or IDE.
-3. Open the `index.html` file in a web browser to access the calculator.
+### Prerequisites
+* A web browser (e.g. Google Chrome, Mozilla Firefox)
+* A code editor (e.g. Visual Studio Code, Sublime Text)
 
-## 📚 Usage
-To use the calculator, follow these steps:
-1. Open the `index.html` file in a web browser.
-2. Enter the first number in the `num1` input field.
-3. Enter the second number in the `num2` input field.
-4. Click on the desired arithmetic operation button (+, -, ×, ÷).
-5. The result of the calculation will be displayed below the input fields.
+### Steps
+1. Clone the repository using the following command:
+```bash
+git clone https://github.com/SudeepKagi/class.git
+```
+2. Open the `index.html` file in a web browser to access the calculator.
+3. Open the `app.js` file in a code editor to view the calculator logic.
 
-## 📝 API Documentation
-The calculator does not have a public API. However, the following functions are available for use:
-* `add()`: Performs the addition of two numbers.
-* `sub()`: Performs the subtraction of two numbers.
-* `mul()`: Performs the multiplication of two numbers.
-* `div()`: Performs the division of two numbers.
+---
+
+## 🚀 Usage
+To use the calculator, simply enter two numbers in the input fields and click on the desired arithmetic operation button. The result will be displayed in the display field.
+```javascript
+// Example usage:
+// Enter two numbers in the input fields
+document.getElementById("num1").value = 10;
+document.getElementById("num2").value = 5;
+
+// Perform addition
+add();
+
+// Display the result
+console.log(document.getElementById("result").innerText);
+```
+
+---
+
+## 📡 API Documentation
+Not applicable, as this is a simple web-based calculator and does not provide an API.
+
+---
 
 ## 🤝 Contributing
-To contribute to the calculator, follow these steps:
-1. Fork the repository using `git fork https://github.com/SudeepKagi/class.git`.
-2. Make the desired changes to the code.
-3. Commit the changes using `git commit -m "brief description of changes"`.
-4. Push the changes to your forked repository using `git push origin main`.
-5. Create a pull request to merge the changes into the main repository.
+To contribute to this project, please follow these steps:
+1. Fork the repository using the following command:
+```bash
+git fork https://github.com/SudeepKagi/class.git
+```
+2. Make changes to the code and commit them using the following command:
+```bash
+git commit -m "Description of changes"
+```
+3. Push the changes to the forked repository using the following command:
+```bash
+git push origin master
+```
+4. Create a pull request to merge the changes into the main repository.
 
-## 📝 License
-The calculator is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+---
 
-## 🙏 Acknowledgments
-* The calculator was built using HTML5 and JavaScript.
-* The calculator's design and functionality were inspired by the need for a simple and intuitive way to perform basic arithmetic operations.
+## 📜 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📈 Project Stats
+![GitHub stars](https://img.shields.io/github/stars/SudeepKagi/class?style=social) ![GitHub forks](https://img.shields.io/github/forks/SudeepKagi/class?style=social) ![GitHub issues](https://img.shields.io/github/issues/SudeepKagi/class) ![GitHub last commit](https://img.shields.io/github/last-commit/SudeepKagi/class)
+
+---
+
+<div align="center">
+### ⭐ Star this repository if you find it helpful!
+**Built with ❤️ by SudeepKagi**
+[GitHub](https://github.com/SudeepKagi)
+</div>
