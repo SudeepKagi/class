@@ -26,70 +26,120 @@ The class repository is a simple web-based calculator that allows users to perfo
 
 ## ✨ Features
 * **Arithmetic Operations**:
-  + Addition: `add()` function that takes two numbers as input and returns their sum.
-  + Subtraction: `sub()` function that takes two numbers as input and returns their difference.
-  + Multiplication: `mul()` function that takes two numbers as input and returns their product.
-  + Division: `div()` function that takes two numbers as input and returns their quotient.
+  + Addition: allows users to add two numbers together
+  + Subtraction: allows users to subtract one number from another
+  + Multiplication: allows users to multiply two numbers together
+  + Division: allows users to divide one number by another
 * **User Interface**:
-  + Simple and intuitive interface with input fields for two numbers and buttons for each arithmetic operation.
-  + Real-time calculation and display of results.
+  + Simple and intuitive design
+  + Easy to use input fields for entering numbers
+  + Clear and concise display of calculation results
+* **Error Handling**:
+  + Handles division by zero errors
+  + Handles invalid input errors
 
 ---
 
-## 🛠️ Tech Stack
-* **Frontend**:
-  + HTML5: Used for structuring and organizing content.
-  + JavaScript: Used for creating interactive elements and performing calculations.
-* **No Backend or Database**: The calculator is a client-side application and does not require a backend or database.
-
----
-
-## 📦 Installation
-To use the calculator, simply clone the repository and open the `index.html` file in a web browser. No installation or setup is required.
-
-```bash
-git clone https://github.com/SudeepKagi/class.git
-cd class/calculator
-open index.html
+## 🏗️ Architecture
+```
+┌────────────────────┐
+│  index.html     │
+├────────────────────┤
+│  app.js          │
+├────────────────────┤
+│  Calculator      │
+│  (HTML, JS)      │
+└────────────────────┘
 ```
 
 ---
 
-## 📚 Usage
-1. Open the `index.html` file in a web browser.
-2. Enter two numbers in the input fields.
-3. Click on the button corresponding to the desired arithmetic operation.
-4. The result will be displayed below the input fields.
+## 🛠️ Tech Stack
+| Technology | Purpose | Version |
+| --- | --- | --- |
+| HTML5 | User Interface | 5 |
+| JavaScript | Calculator Logic | ES6 |
+| CSS | Styling | 3 |
+
+Note: The versions listed are based on the code provided and may not reflect the latest versions available.
 
 ---
 
-## 📝 API Documentation
-No API documentation is provided as the calculator does not expose any APIs.
+## 📦 Installation
+### Prerequisites
+* A modern web browser (e.g. Google Chrome, Mozilla Firefox)
+* A code editor or IDE (e.g. Visual Studio Code, Sublime Text)
+
+### Steps
+1. Clone the repository using the following command:
+```bash
+git clone https://github.com/SudeepKagi/class.git
+```
+2. Open the `calculator` directory in your code editor or IDE.
+3. Open the `index.html` file in a web browser to use the calculator.
+
+---
+
+## 🚀 Usage
+To use the calculator, simply open the `index.html` file in a web browser and enter two numbers into the input fields. Then, select the desired arithmetic operation using the buttons provided. The result of the calculation will be displayed below the input fields.
+
+Example:
+```javascript
+// Get the input fields and result element
+const num1 = document.getElementById("num1");
+const num2 = document.getElementById("num2");
+const result = document.getElementById("result");
+
+// Set the input values
+num1.value = 10;
+num2.value = 5;
+
+// Perform the calculation
+add();
+
+// Display the result
+console.log(result.innerText); // Output: "Result: 15"
+```
+
+---
+
+## 📡 API Documentation
+There is no API provided for this project, as it is a simple web-based calculator.
 
 ---
 
 ## 🤝 Contributing
-Contributions are welcome! To contribute, please fork the repository and submit a pull request with your changes. Ensure that your changes are consistent with the existing code style and do not introduce any bugs or errors.
+To contribute to this project, please follow these steps:
 
-### Steps to Contribute
-1. Fork the repository.
-2. Clone the forked repository to your local machine.
-3. Make changes to the code.
-4. Commit changes with a meaningful commit message.
-5. Push changes to your forked repository.
-6. Submit a pull request to the original repository.
-
-### Code of Conduct
-* Be respectful and considerate of others.
-* Follow standard professional guidelines for code style and formatting.
-* Ensure that changes do not introduce any bugs or errors.
-
----
-
-## 📄 License
-The class repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+1. Fork the repository using the GitHub web interface.
+2. Clone the forked repository to your local machine using the following command:
+```bash
+git clone https://github.com/your-username/class.git
+```
+3. Make your changes to the code and commit them using the following command:
+```bash
+git commit -m "Your commit message"
+```
+4. Push your changes to your forked repository using the following command:
+```bash
+git push origin your-branch-name
+```
+5. Create a pull request to the original repository using the GitHub web interface.
 
 ---
 
-## 🙏 Acknowledgments
-* Special thanks to [SudeepKagi](https://github.com/SudeepKagi) for creating and maintaining the class repository.
+## 📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+## 📈 Project Stats
+![GitHub stars](https://img.shields.io/github/stars/SudeepKagi/class?style=social) ![GitHub forks](https://img.shields.io/github/forks/SudeepKagi/class?style=social) ![GitHub issues](https://img.shields.io/github/issues/SudeepKagi/class) ![GitHub last commit](https://img.shields.io/github/last-commit/SudeepKagi/class)
+
+---
+
+<div align="center">
+### ⭐ Star this repository if you find it helpful!
+**Built with ❤️ by SudeepKagi**
+[GitHub](https://github.com/SudeepKagi)
+</div>
