@@ -24,14 +24,16 @@ The class repository is a simple web-based calculator that allows users to perfo
 
 ## ✨ Features
 * **Arithmetic Operations**:
-  + Addition: Performs the addition of two numbers.
-  + Subtraction: Performs the subtraction of two numbers.
-  + Multiplication: Performs the multiplication of two numbers.
-  + Division: Performs the division of two numbers.
+  + Addition: Performs addition of two numbers.
+  + Subtraction: Performs subtraction of two numbers.
+  + Multiplication: Performs multiplication of two numbers.
+  + Division: Performs division of two numbers.
+* **User Input**: Allows users to input two numbers for calculation.
+* **Real-time Results**: Displays the result of the calculation in real-time.
 
 ## 🛠️ Tech Stack
 * **Frontend**: HTML5, JavaScript
-* **No Backend**: The calculator does not require a backend server, making it a static web application.
+* **No Backend**: This project does not require a backend server.
 
 ## 📚 Installation
 To use the calculator, follow these steps:
@@ -39,30 +41,27 @@ To use the calculator, follow these steps:
 2. Open the `calculator/index.html` file in a web browser.
 3. The calculator is now ready to use.
 
-## 📊 Usage
+## 📝 Usage
 To use the calculator, follow these steps:
-1. Enter the first number in the `Enter first number` input field.
-2. Enter the second number in the `Enter second number` input field.
-3. Click on the desired operation button (+, -, ×, ÷).
-4. The result will be displayed below the buttons.
+1. Open the `calculator/index.html` file in a web browser.
+2. Enter the first number in the "Enter first number" input field.
+3. Enter the second number in the "Enter second number" input field.
+4. Click on the desired operation button (+, -, ×, ÷).
+5. The result of the calculation will be displayed below the input fields.
 
-## 📝 API Documentation
-There is no API documentation available for this project, as it is a simple web-based calculator that does not provide any API endpoints.
+## 📄 API Documentation
+This project does not have a public API.
 
 ## 🤝 Contributing
-To contribute to this project, follow these steps:
+Contributions are welcome! To contribute to this project, follow these steps:
 1. Fork the repository using `git fork https://github.com/SudeepKagi/class.git`.
 2. Make the desired changes to the code.
-3. Create a pull request to merge the changes into the main repository.
-4. Ensure that the changes are properly tested and documented.
+3. Commit the changes using `git commit -m "description of changes"`.
+4. Push the changes to the forked repository using `git push origin main`.
+5. Create a pull request to the main repository.
 
-### Code of Conduct
-* Be respectful and considerate of others.
-* Follow standard professional guidelines for code quality and documentation.
-* Ensure that all changes are properly tested and reviewed.
+## 📝 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-### License
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
-
-### Acknowledgments
-* Special thanks to [SudeepKagi](https://github.com/SudeepKagi) for creating and maintaining this project.
+## 📞 Contact
+For any questions or concerns, please contact [SudeepKagi](https://github.com/SudeepKagi).
