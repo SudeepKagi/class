@@ -26,111 +26,73 @@ The class repository is a simple web-based calculator that allows users to perfo
 
 ## ✨ Features
 * **Arithmetic Operations**:
-  + Addition: allows users to add two numbers together
-  + Subtraction: allows users to subtract one number from another
-  + Multiplication: allows users to multiply two numbers together
-  + Division: allows users to divide one number by another
-* **User Interface**:
-  + Simple and intuitive design
-  + Easy to use input fields for entering numbers
-  + Clear and concise display of calculation results
-* **Error Handling**:
-  + Handles division by zero errors
-  + Handles invalid input errors
-
----
-
-## 🏗️ Architecture
-```
-┌────────────┐
-│  index.html  │
-├────────────┤
-│  app.js     │
-├────────────┤
-│  calculator  │
-│  (input fields,  │
-│   buttons, result) │
-└────────────┘
-```
+  + Addition: `add()` function that takes two numbers as input and returns their sum.
+  + Subtraction: `sub()` function that takes two numbers as input and returns their difference.
+  + Multiplication: `mul()` function that takes two numbers as input and returns their product.
+  + Division: `div()` function that takes two numbers as input and returns their quotient.
+* **User Interface**: A simple and intuitive interface that allows users to input numbers and select the operation to perform.
+* **Real-time Results**: The calculator displays the result of the operation in real-time, without the need for page reloads or additional requests.
 
 ---
 
 ## 🛠️ Tech Stack
-| Technology | Purpose | Version |
-| --- | --- | --- |
-| HTML5 | User Interface | 5 |
-| JavaScript | Calculator Logic | ES6 |
-| CSS | Styling | 3 |
-
-Note: The versions listed are based on the code provided and may not reflect the latest versions available.
+* **Frontend**: HTML5, JavaScript
+* **No Backend**: The calculator does not require a backend server, making it a fully client-side application.
+* **No External Libraries**: The calculator does not rely on any external libraries or frameworks, making it lightweight and easy to maintain.
 
 ---
 
 ## 📦 Installation
-### Prerequisites
-* A web browser (e.g. Google Chrome, Mozilla Firefox)
-* A code editor (e.g. Visual Studio Code, Sublime Text)
+To use the calculator, simply clone the repository and open the `index.html` file in your preferred browser. No additional installation or setup is required.
 
-### Steps
-1. Clone the repository using the following command:
 ```bash
 git clone https://github.com/SudeepKagi/class.git
-```
-2. Open the `index.html` file in a web browser to use the calculator.
-3. Open the `app.js` file in a code editor to view the calculator logic.
-
----
-
-## 🚀 Usage
-To use the calculator, simply open the `index.html` file in a web browser and enter two numbers into the input fields. Then, select the desired arithmetic operation using the buttons provided. The result will be displayed below the input fields.
-
-Example:
-```javascript
-// Add two numbers together
-function add() {
-  let a = Number(document.getElementById("num1").value);
-  let b = Number(document.getElementById("num2").value);
-  document.getElementById("result").innerText = "Result: " + (a + b);
-}
+cd class/calculator
+open index.html
 ```
 
 ---
 
-## 📡 API Documentation
-There is no API provided for this project, as it is a simple web-based calculator.
+## 📚 Usage
+To use the calculator, follow these steps:
+
+1. Open the `index.html` file in your preferred browser.
+2. Enter the first number in the `num1` input field.
+3. Enter the second number in the `num2` input field.
+4. Select the operation to perform by clicking on the corresponding button (+, -, \*, /).
+5. The result of the operation will be displayed in real-time below the input fields.
+
+---
+
+## 📝 API Documentation
+The calculator does not provide a public API, as it is a fully client-side application. However, the following functions are available for use:
+
+* `add()`: Takes two numbers as input and returns their sum.
+* `sub()`: Takes two numbers as input and returns their difference.
+* `mul()`: Takes two numbers as input and returns their product.
+* `div()`: Takes two numbers as input and returns their quotient.
+
+These functions can be called from the `app.js` file, and can be used to perform calculations programmatically.
 
 ---
 
 ## 🤝 Contributing
-To contribute to this project, please follow these steps:
-1. Fork the repository using the following command:
-```bash
-git fork https://github.com/SudeepKagi/class.git
-```
-2. Make changes to the code and commit them using the following command:
-```bash
-git commit -m "brief description of changes"
-```
-3. Push the changes to the forked repository using the following command:
-```bash
-git push origin master
-```
-4. Create a pull request to the original repository.
+Contributions are welcome and encouraged. To contribute to the calculator, follow these steps:
+
+1. Fork the repository on GitHub.
+2. Clone the repository to your local machine.
+3. Make changes to the code, including any new features or bug fixes.
+4. Commit your changes and push them to your fork.
+5. Submit a pull request to the main repository.
+
+Please ensure that all contributions are made in accordance with the MIT License, and that all code is written in a clear and concise manner.
 
 ---
 
-## 📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 📝 License
+The class repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ---
 
-## 📈 Project Stats
-![GitHub stars](https://img.shields.io/github/stars/SudeepKagi/class?style=social) ![GitHub forks](https://img.shields.io/github/forks/SudeepKagi/class?style=social) ![GitHub issues](https://img.shields.io/github/issues/SudeepKagi/class) ![GitHub last commit](https://img.shields.io/github/last-commit/SudeepKagi/class)
-
----
-
-<div align="center">
-### ⭐ Star this repository if you find it helpful!
-**Built with ❤️ by SudeepKagi**
-[GitHub](https://github.com/SudeepKagi)
-</div>
+## 🙏 Acknowledgments
+The class repository was created by [SudeepKagi](https://github.com/SudeepKagi). Special thanks to anyone who has contributed to the repository, and to the open-source community for their support and encouragement.
