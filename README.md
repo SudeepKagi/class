@@ -28,46 +28,41 @@ The class repository is a simple web-based calculator that allows users to perfo
   + Subtraction: Performs the subtraction of two numbers.
   + Multiplication: Performs the multiplication of two numbers.
   + Division: Performs the division of two numbers.
-* **User Interface**: A simple and intuitive interface that allows users to input numbers and select the desired operation.
-* **Real-Time Results**: The calculator provides instant results, allowing users to quickly perform multiple calculations.
 
 ## 🛠️ Tech Stack
-* **HTML5**: Used for building the user interface and structuring the content.
-* **JavaScript**: Used for creating the interactive elements and performing calculations.
-* **No External Dependencies**: The calculator does not rely on any external libraries or frameworks.
+* **Frontend**: HTML5, JavaScript
+* **No Backend**: The calculator does not require a backend server, making it a static web application.
 
-## 📦 Installation
+## 📚 Installation
 To use the calculator, follow these steps:
 1. Clone the repository using `git clone https://github.com/SudeepKagi/class.git`.
 2. Open the `calculator/index.html` file in a web browser.
 3. The calculator is now ready to use.
 
-## 📚 Usage
+## 📊 Usage
 To use the calculator, follow these steps:
-1. Open the `calculator/index.html` file in a web browser.
-2. Enter the first number in the top input field.
-3. Enter the second number in the bottom input field.
-4. Select the desired operation by clicking the corresponding button.
-5. The result will be displayed below the input fields.
+1. Enter the first number in the `Enter first number` input field.
+2. Enter the second number in the `Enter second number` input field.
+3. Click on the desired operation button (+, -, ×, ÷).
+4. The result will be displayed below the buttons.
 
 ## 📝 API Documentation
-The calculator does not have a public API. However, the following functions are available in the `calculator/app.js` file:
-* `add()`: Performs the addition of two numbers.
-* `sub()`: Performs the subtraction of two numbers.
-* `mul()`: Performs the multiplication of two numbers.
-* `div()`: Performs the division of two numbers.
+There is no API documentation available for this project, as it is a simple web-based calculator that does not provide any API endpoints.
 
 ## 🤝 Contributing
-Contributions are welcome! To contribute to the calculator, follow these steps:
+To contribute to this project, follow these steps:
 1. Fork the repository using `git fork https://github.com/SudeepKagi/class.git`.
 2. Make the desired changes to the code.
-3. Commit the changes using `git commit -m "description of changes"`.
-4. Push the changes to the forked repository using `git push origin branch-name`.
-5. Create a pull request to merge the changes into the main repository.
+3. Create a pull request to merge the changes into the main repository.
+4. Ensure that the changes are properly tested and documented.
 
-## 📝 License
-The class repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+### Code of Conduct
+* Be respectful and considerate of others.
+* Follow standard professional guidelines for code quality and documentation.
+* Ensure that all changes are properly tested and reviewed.
 
-## 🙏 Acknowledgments
-* The calculator was built using HTML5 and JavaScript.
-* The calculator's design and functionality were inspired by simple web-based calculators.
+### License
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+### Acknowledgments
+* Special thanks to [SudeepKagi](https://github.com/SudeepKagi) for creating and maintaining this project.
